@@ -358,5 +358,9 @@
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^19.2.0",
+    "conventional-changelog-conventionalcommits": "^7.0.2"
   }
 }

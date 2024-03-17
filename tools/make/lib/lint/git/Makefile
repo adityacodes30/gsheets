@@ -19,8 +19,9 @@
 # DEPENDENCIES #
 
 # Note: keep in alphabetical order...
-include $(TOOLS_MAKE_LIB_DIR)/lint/git/commitlint.mk
+include $(ROOT_DIR)/tools/make/lib/lint/git/commitlint.mk
 
+GIT_COMMIT_LINTER ?= commitlint
 
 # RULES #
 

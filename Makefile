@@ -788,3 +788,5 @@ scaffold-string-unary: $(NODE_MODULES)
 	$(QUIET) $(NODE) $(SCRIPTS_DIR)/scaffold/string-unary/scripts/scaffold.js
 
 .PHONY: scaffold-string-unary
+
+include $(ROOT_DIR)/tools/make/lib/lint/git/Makefile
