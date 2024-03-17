@@ -163,7 +163,7 @@ DATA_FOLDER ?= data
 DOCUMENTATION_FOLDER ?= docs
 
 # Define the folder name convention for configuration files:
-CONFIG_FOLDER ?= etc
+CONFIG_FOLDER ?= $(ROOT_DIR)/etc
 
 # Define the folder name convention for scripts:
 SCRIPTS_FOLDER ?= scripts
